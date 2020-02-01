@@ -12,4 +12,4 @@ For 10 1.6GB compressed (gz) database dump files, it will take ~2 minutes when a
 
 
 You can add a cronjob similar to below to check this regularly.
-0 12 * * * /bin/bash /root/check-db-integrity.sh > /usr/local/mysql-temp/`date "+\%d"`-check-db-integrity-execution.log 2> /usr/local/mysql-temp/`date "+\%d"`-check-db-integrity-execution-err.log
+0 12 * * * /bin/bash /root/check-db-integrity.sh > /usr/local/mysql-temp/\`date "+\%d"\`-check-db-integrity-execution.log 2> /usr/local/mysql-temp/\`date "+\%d"\`-check-db-integrity-execution-err.log
